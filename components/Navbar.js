@@ -2,6 +2,66 @@ import styled from "styled-components";
 import Link from "next/link";
 import { useState } from "react";
 
+const Navbar = () => {
+	const [active, setActive] = useState(false);
+
+	return (
+		<StyledNavbar active={active}>
+			<Logo>
+				<LogoImage></LogoImage>
+				<Link href="/">
+					<a>TRILOGI</a>
+				</Link>
+			</Logo>
+			<svg
+				width="24"
+				height="24"
+				xmlns="http://www.w3.org/2000/svg"
+				fillRule="evenodd"
+				clipRule="evenodd"
+				onClick={() => setActive(true)}
+				className="openMenu"
+			>
+				<path
+					d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"
+					fill="#1040e2"
+				/>
+				<path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
+			</svg>
+			<svg
+				width="24"
+				height="24"
+				xmlns="http://www.w3.org/2000/svg"
+				fillRule="evenodd"
+				clipRule="evenodd"
+				onClick={() => setActive(false)}
+				className="closeMenu"
+			>
+				<path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z" />
+			</svg>
+			<StyledNav active={active}>
+				<Link href="/">
+					<a>Home</a>
+				</Link>
+				<Link href="/profile">
+					<a>Profile</a>
+				</Link>
+				<Link href="/activity">
+					<a>Activity</a>
+				</Link>
+				<Link href="/division">
+					<a>Division</a>
+				</Link>
+				<Link href="/contact">
+					<a>Contact</a>
+				</Link>
+			</StyledNav>
+		</StyledNavbar>
+	);
+};
+
+export default Navbar;
+
 const StyledNavbar = styled.div`
 	height: 4em;
 	padding: 0 6%;
@@ -97,61 +157,3 @@ const StyledNav = styled.nav`
 		}
 	}
 `;
-
-export default function Navbar() {
-	const [active, setActive] = useState(false);
-
-	return (
-		<StyledNavbar active={active}>
-			<Logo>
-				<LogoImage></LogoImage>
-				<Link href="/">
-					<a>TRILOGI</a>
-				</Link>
-			</Logo>
-			<svg
-				width="24"
-				height="24"
-				xmlns="http://www.w3.org/2000/svg"
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				onClick={() => setActive(true)}
-				className="openMenu"
-			>
-				<path
-					d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"
-					fill="#1040e2"
-				/>
-				<path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
-			</svg>
-			<svg
-				width="24"
-				height="24"
-				xmlns="http://www.w3.org/2000/svg"
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				onClick={() => setActive(false)}
-				className="closeMenu"
-			>
-				<path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z" />
-			</svg>
-			<StyledNav active={active}>
-				<Link href="/">
-					<a>Home</a>
-				</Link>
-				<Link href="/profile">
-					<a>Profile</a>
-				</Link>
-				<Link href="/activity">
-					<a>Activity</a>
-				</Link>
-				<Link href="/division">
-					<a>Division</a>
-				</Link>
-				<Link href="/contact">
-					<a>Contact</a>
-				</Link>
-			</StyledNav>
-		</StyledNavbar>
-	);
-}
