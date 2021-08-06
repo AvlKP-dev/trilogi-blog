@@ -91,9 +91,10 @@ collections:
       - name: "division"
         label: "Division"
         widget: "relation"
+        collection: "division"
         value_field: "name"
-        search_field: ["name"]
-        display_field: ["name"]
+        search_fields: ["name"]
+        display_fields: ["name"]
       - name: "occupation"
         label: "Current Occupation"
         widget: "string"
@@ -113,10 +114,10 @@ collections:
       - name: "author"
         label: "Author"
         widget: "relation"
-        collections: "members"
+        collection: "members"
         value_field: "name"
-        search_field: ["name", "gen"]
-        display_field: ["name", "gen"]
+        search_fields: ["name", "gen"]
+        display_fields: ["name", "gen"]
       - name: "cover"
         label: "Cover Image"
         widget: "image"
