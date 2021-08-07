@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 media_folder: "public/images/uploads"
+public_folder: "images/uploads"
 collections:
   - name: "pages"
     label: "Pages"
@@ -160,7 +161,6 @@ collections:
           - name: "end"
             label: "End"
             widget: "datetime"
-            required: false
       - name: "body"
         label: "Body"
         widget: "markdown"
