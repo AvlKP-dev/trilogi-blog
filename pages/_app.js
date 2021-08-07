@@ -12,6 +12,29 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: black;
   }
+
+	h1, h2 {
+		font-size: 3rem;
+		font-weight: 600;
+	}
+
+	h2 {
+		margin-bottom: 5.25rem;
+		margin-top: 0;
+    text-align: center;
+	}
+
+	h3 {
+		font-size: 3rem;
+		font-weight: 500;
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		font-weight: 500;
+	}
 `;
 
 const theme = {};

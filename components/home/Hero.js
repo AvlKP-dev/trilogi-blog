@@ -32,11 +32,6 @@ const Container = styled.div`
 	right: 21ch;
 	top: 50%;
 	transform: translateY(-50%);
-
-	h1 {
-		font-size: 3rem;
-		font-weight: 600;
-	}
 `;
 
 const Button = styled.a`

@@ -1,7 +1,7 @@
 ---
 title: Analisis Kebahasaan Cerita Pendek
 author: Avila Khadhibyan
-cover: /public/images/uploads/unsur-kebahasaan-1.jpg
+cover: /images/uploads/unsur-kebahasaan-1.jpg
 date: 2021-08-07T02:26:40.164Z
 ---
 Cras ultricies sed magna in mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam suscipit dapibus neque eget sodales. Etiam volutpat blandit gravida. Etiam suscipit nibh mi, ac luctus elit semper nec. Pellentesque sit amet sem et libero pretium dignissim et at elit. Proin erat orci, tempus quis luctus vel, eleifend eu velit. Cras et nunc et leo lacinia mattis. Proin nec lacus vitae sapien sollicitudin maximus in sit amet ante.

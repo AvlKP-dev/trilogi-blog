@@ -1,7 +1,7 @@
 ---
 title: Lorem Guide to Next.js
 author: Avila Khadhibyan
-cover: /public/images/uploads/1200px-nextjs-logo.svg.png
+cover: /images/uploads/uploads/1200px-nextjs-logo.svg.png
 date: 2021-08-07T02:27:56.697Z
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis massa, vestibulum varius placerat vel, mollis luctus magna. Phasellus efficitur lectus vel tortor dignissim, non hendrerit nulla facilisis. Cras accumsan dictum lectus vitae consectetur. Suspendisse et eleifend libero, a dignissim libero. Duis vitae tellus tincidunt eros mattis varius non in mi. Curabitur convallis nibh justo, id suscipit mauris pharetra id. Curabitur posuere felis quis accumsan venenatis. Integer mollis vehicula suscipit. Maecenas a est libero. Proin quis turpis sit amet elit dignissim molestie at ac libero. Duis non odio pulvinar, mollis tortor nec, auctor mi. Cras dictum nunc et volutpat bibendum. Maecenas lorem urna, semper vitae ornare et, laoreet non nisl. Curabitur eu lectus id felis laoreet tempus. Sed commodo ultrices nunc sed vestibulum.

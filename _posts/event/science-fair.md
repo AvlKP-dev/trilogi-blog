@@ -1,7 +1,7 @@
 ---
 title: Science Fair
-cover: /public/images/uploads/208964148_997833587629864_8656008541839379343_n.jpg
-address: Jl. Belitun No. 08
+cover: /images/uploads/208964148_997833587629864_8656008541839379343_n.jpg
+address: Jl. Belitung No. 08
 date:
   start: 2021-09-09T02:11:16.010Z
   end: 2021-09-30T02:13:26.391Z

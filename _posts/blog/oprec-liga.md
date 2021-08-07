@@ -1,7 +1,7 @@
 ---
 title: Oprec LIGA
 author: Avila Khadhibyan
-cover: /public/images/uploads/unsur-kebahasaan-1.jpg
+cover: /images/uploads/unsur-kebahasaan-1.jpg
 date: 2021-08-07T02:51:46.402Z
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum nulla sit amet libero malesuada sodales. Nullam sollicitudin, mauris non imperdiet facilisis, nisl purus blandit ipsum, ut gravida urna tellus ut dui. Maecenas bibendum eu eros eget lacinia. Aliquam maximus nunc nisi, vitae imperdiet turpis blandit a. Mauris tempus turpis nec est faucibus, eget lobortis nibh consectetur. Suspendisse scelerisque pretium odio et hendrerit. Cras dapibus magna sit amet dolor semper, non accumsan felis luctus.

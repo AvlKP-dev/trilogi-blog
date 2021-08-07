@@ -1,7 +1,7 @@
 ---
 title: Mengapa Tidur Itu Penting
 author: Avila Khadhibyan
-cover: /public/images/uploads/sleep.png
+cover: /images/uploads/uploads/sleep.png
 date: 2021-08-07T02:16:14.054Z
 ---
 Sed ac nibh nunc. Suspendisse in semper nulla. Donec nibh sem, maximus id aliquam in, blandit id odio. Nulla augue neque, aliquet vitae ipsum et, laoreet faucibus diam. Etiam scelerisque nibh accumsan lectus faucibus, non euismod erat interdum. Fusce finibus viverra tortor, non efficitur lorem dictum at. Sed porttitor lacus ac neque tempor ultrices. Etiam dolor sapien, aliquet eu sem pretium, rutrum tincidunt lacus. Aliquam erat volutpat. Sed ac dolor erat. Nunc id ipsum vitae nisl pulvinar dictum a nec neque. Suspendisse vulputate efficitur orci, eget facilisis ligula tincidunt sit amet.

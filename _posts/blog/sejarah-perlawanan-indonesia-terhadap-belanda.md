@@ -1,7 +1,7 @@
 ---
 title: Sejarah Perlawanan Indonesia Terhadap Belanda
 author: Avila Khadhibyan
-cover: /public/images/uploads/a-group-of-youths-marching-with-spiked-bamboo-indonesia-fa75c0332d4784eaca2a992f20b2fa6e.jpg
+cover: /images/uploads/a-group-of-youths-marching-with-spiked-bamboo-indonesia-fa75c0332d4784eaca2a992f20b2fa6e.jpg
 date: 2021-08-07T02:24:40.692Z
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat, neque sed auctor commodo, odio magna pharetra dui, vitae lacinia turpis nulla pharetra ligula. Praesent consequat suscipit pretium. Aenean euismod turpis vel interdum sodales. Mauris vulputate rutrum dapibus. In tempus, nisl vel fermentum efficitur, urna libero maximus mauris, vel sagittis ex metus non diam. Etiam finibus urna at leo sollicitudin gravida. Ut tristique, erat sit amet elementum maximus, lorem nunc placerat enim, nec sollicitudin quam ante sed enim. Donec vulputate eros at turpis porta cursus.
