@@ -1,47 +1,58 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const Footer = () => {
 	return (
 		<StyledFooter>
 			<LogoImage></LogoImage>
-			<StyledNav as="nav">
+			<StyledContainer as="nav">
 				<div>
-					<NavHead>Informasi</NavHead>
+					<ContainerHead>Informasi</ContainerHead>
 					<div>
-						<NavItem>
-							<NavIcon></NavIcon>Jl. Belitung No. 8 Bandung
-						</NavItem>
-						<NavItem>
-							<NavIcon></NavIcon>trilogi@gmail.com
-						</NavItem>
-						<NavItem>
-							<NavIcon></NavIcon>081223862080
-						</NavItem>
+						<Item>
+							<Icon></Icon>Jl. Belitung No. 8 Bandung
+						</Item>
+						<Item>
+							<Icon></Icon>trilogi@gmail.com
+						</Item>
+						<Item>
+							<Icon></Icon>081223862080
+						</Item>
 					</div>
 				</div>
-				<div>
-					<NavHead>Menu</NavHead>
+				<nav>
+					<ContainerHead>Menu</ContainerHead>
 					<FlexContainer>
-						<NavContainer>
-							<NavItem>Home</NavItem>
-							<NavItem>Profile</NavItem>
-							<NavItem>Activity</NavItem>
-						</NavContainer>
-						<NavContainer>
-							<NavItem>Division</NavItem>
-							<NavItem>Contact</NavItem>
-						</NavContainer>
+						<Container>
+							<Link href="/home" passHref>
+								<Item as="a">Home</Item>
+							</Link>
+							<Link href="/profile" passHref>
+								<Item as="a">Profile</Item>
+							</Link>
+							<Link href="/activity" passHref>
+								<Item as="a">Activity</Item>
+							</Link>
+						</Container>
+						<Container>
+							<Link href="/division" passHref>
+								<Item as="a">Division</Item>
+							</Link>
+							<Link href="/contact" passHref>
+								<Item as="a">Contact</Item>
+							</Link>
+						</Container>
 					</FlexContainer>
-				</div>
-				<div>
-					<NavHead>Ikuti Kami</NavHead>
-					<NavItem>
+				</nav>
+				<nav>
+					<ContainerHead>Ikuti Kami</ContainerHead>
+					<Item>
 						<SocialIcon></SocialIcon>
 						<SocialIcon></SocialIcon>
 						<SocialIcon></SocialIcon>
-					</NavItem>
-				</div>
-			</StyledNav>
+					</Item>
+				</nav>
+			</StyledContainer>
 		</StyledFooter>
 	);
 };
@@ -72,30 +83,30 @@ const LogoImage = styled(Circle)`
 	margin-right: 5ch;
 `;
 
-const StyledNav = styled(FlexContainer)`
+const StyledContainer = styled(FlexContainer)`
 	width: 56%;
 	justify-content: space-between;
 `;
 
-const NavContainer = styled.div`
+const Container = styled.div`
 	& + & {
 		margin-left: 1.5ch;
 	}
 `;
 
-const NavHead = styled.div`
+const ContainerHead = styled.div`
 	font-weight: 500;
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 `;
 
-const NavItem = styled.div`
+const Item = styled.div`
 	align-items: center;
 	display: flex;
 	margin-bottom: 0.75rem;
 `;
 
-const NavIcon = styled(Circle)`
+const Icon = styled(Circle)`
 	width: 24px;
 	height: 24px;
 `;

@@ -161,3 +161,6 @@ collections:
             label: "End"
             widget: "datetime"
             required: false
+      - name: "body"
+        label: "Body"
+        widget: "markdown"
